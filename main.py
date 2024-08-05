@@ -31,8 +31,8 @@ for _ in bt:
         birthday_celebrant = (_['name'])
         birthday_gmail = (_['email'])
         send_letter()
-        my_email = "feranmidavid427@gmail.com"
-        password = 'mtoc rvfk mume umln'
+        my_email = "Input_your_email_here"
+        password = 'input_your_password_here'
         with open("main_letter.txt", "r") as main_letter:
             main_letter = main_letter.read()
         with smtplib.SMTP("smtp.gmail.com") as connection:
